@@ -16,6 +16,11 @@
         echo $x." x ".$y." = ".$z."<br>";
         $z= $x % $y;
         echo $x." módulo ".$y." = ".$z."<br>";
+        /* Operadores de asignación */
+        $z-=$y;
+        echo "\$z-=\$y asigna a \$z ".$z."<br>";
+        $z+=$y;
+        echo "\$z+=\$y asigna a \$z ".$z."<br>";
 
 
 
