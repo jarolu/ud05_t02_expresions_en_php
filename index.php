@@ -21,6 +21,11 @@
         echo "\$z-=\$y asigna a \$z ".$z."<br>";
         $z+=$y;
         echo "\$z+=\$y asigna a \$z ".$z."<br>";
+        //Operadores de incremento/diminución
+        ++$z;
+        echo "++\$z asigna a \$z ".$z."<br>";
+        $z--;
+        echo "\$z-- asigna a \$z ".$z."<br>";
 
 
 
