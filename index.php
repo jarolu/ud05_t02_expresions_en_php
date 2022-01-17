@@ -19,7 +19,7 @@
         /* Operadores de asignación */
         $z-=$y;
         echo "\$z-=\$y asigna a \$z ".$z."<br>";
-        $z+=$y;
+        $z+=$x;
         echo "\$z+=\$y asigna a \$z ".$z."<br>";
         //Operadores de incremento/diminución
         ++$z;
@@ -31,6 +31,12 @@
         echo "\$x!=\$y devolve ".$z."<br>";
         $z=$y>$x;
         echo "\$y>\$x devolve ".$z."<br>";
+        // Operadores lóxicos
+        $z=($x==10 and $y==3);
+        echo "(\$x==10 and \$y==3) devolve ".$z."<br>";
+        $z=($x==10 or $y==5);
+        echo "(\$x==10 or \$y==5) devolve ".$z."<br>";
+
 
 
 
