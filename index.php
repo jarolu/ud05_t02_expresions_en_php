@@ -37,6 +37,8 @@
         $z=($x==10 or $y==5);
         echo "(\$x==10 or \$y==5) devolve ".$z."<br>";
 
+        //Comentario dende outra máquina
+
 
 
 
